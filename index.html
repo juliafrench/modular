@@ -2,15 +2,17 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
   <title>REI Modular HTML</title>
 </head>
 
 <body>
   <!--breadcrumbs-->
-
-
-  <nav>
+  
+<header>
+  
+  <nav id="navigation" class="clearfix">
     <ol>
       <li>
         <a href="#">Breadcrumb1&gt;</a>
@@ -32,23 +34,35 @@
       </li>
     </ol>
   </nav>
-  <!--flyer circle, module optional-->
+  </header>
+  
+  
+  
+    <!--flyer circle, module optional-->
 
 
   <aside class="badge">
     <img src="images/online-only-badge.svg">
   </aside>
+  
+  
+  <div="main">
+  
   <!--product image with link to product-only-view-->
+    
+      <section>
 
+  
+    <figure >
+    <img src="images/main-product-image.jpg"><a href="#"></a>
+    </figure>
 
-  <ol>
-    <li>
-      <img src="images/main-product-image.jpg"><a href="#"></a>
-    </li>
-  </ol>
-
-
-  <section>
+  </section>
+  
+  
+  <sidebar>
+  
+  
     <p class="product-title">Lorem ipsum dolor sit amet, consectetu.</p>
     <!--product description with link to product-only-view-->
 
@@ -67,7 +81,7 @@
     <p class="product-item-number">######</p>
 
 
-    <p class="product-color-size/quantity">Color/Size</p>
+    <p class="product-color-size-quantity">Color/Size</p>
     <select>
       <option value="#">
         product-choice-1
@@ -86,7 +100,7 @@
       </option>
     </select>
 
-    <p class="product-color-size/quantity">Quantity</p>
+    <p class="product-color-size-quantity">Quantity</p>
     <input name="quantity" type="number" value="#"><br>
     <br>
     <button type="button">Add to Cart</button> <a href=
@@ -104,14 +118,14 @@
     <p>REI Members get back an estimated $XX.XX on this item as part of their
     <a href="http://www.rei.com/">member dividend.</a></p>
   </aside>
-
+</div>
 
   <footer>
     <!--footer boilerplate-->
     <br>
 
 
-    <nav>
+    <nav id="navigation" class="clearfix">
       <ul>
         <li>
           <a href="rei.com">THE REI DIFFERENCE</a>
