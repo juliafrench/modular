@@ -1,7 +1,7 @@
 body {
   align-content: space-around;
   font: .875em/1.618 Helvetica,Sans-serif;
-  width: 75%;
+  width: 60%;
 }
 
 #header {
@@ -65,7 +65,7 @@ body {
 section {
   float: right;
   display: block;
-  width: 65%;
+  width: 50%;
   align-content: center;
 }
 
@@ -98,7 +98,7 @@ figcaption {
 #footer {
   clear: both;
   background-color: #eee;
-  margin-bottom: 1em;
+  margin-top: 2em;
   width: 100%;
   text-align: right;
 }
@@ -112,7 +112,7 @@ figcaption {
   display: block;
   float: left;
   margin: 0;
-  margin-right: 3em;
+  margin-right: 4em;
 }
 
 #footer li:last-child {
