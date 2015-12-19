@@ -26,7 +26,7 @@ body {
 #header li:last-child {
   border-right-width: 0;
 }
-
+/*
 #header a {
   background-color: #eee;
   color: #00008b;
@@ -40,6 +40,14 @@ body {
 
 #header a:hover {
   background-color: #ddd;
+
+}
+
+*/
+
+a:hover, a:focus {
+outline:1px; solid red;
+background:yellow;
 }
 
 .clearfix {
@@ -62,6 +70,10 @@ body {
   width: 5%;
 }
 
+.main{
+  width: 80%;
+}
+  
 section {
   float: right;
   display: block;
@@ -129,7 +141,12 @@ figcaption {
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
 }
-
+/*
 #footer a:hover {
   background-color: #ddd;
+}
+*/
+#footer a:hover, a:focus {
+outline:1px; solid red;
+background:yellow;
 }
