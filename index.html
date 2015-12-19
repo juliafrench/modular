@@ -40,7 +40,7 @@
   
     <!--badge, module optional-->
 
-  <div class="main"></div>
+  <div class="main">
 
   <aside class="badge">
     <img src="images/online-only-badge.svg" alt="Online Only">
@@ -78,7 +78,7 @@
 
 
     <p class="product-color-size-quantity">Color/Size</p>
-    <select  aria-required="true">
+    <select  aria-labelledby="select_quantity">
       <option value="#">
         product-choice-1
       </option>
@@ -97,16 +97,16 @@
     </select>
 
     <p class="product-color-size-quantity">Quantity</p>
-    <input name="quantity" type="number" value=""><br>
+    <input name="quantity" aria-labelledby="quantity" type="number" value=""><br>
     <br>
-    <button type="button"  aria-required="true">Add to Cart</button> <a href=
+    <button type="button"  aria-labelledby="add_to_cart">Add to Cart</button> <a href=
     "http://www.rei.com/">Add to Wishlist</a>
 
     <p>Shipping restrictions apply.<a href="http://www.rei.com/">Find out the
     details</a></p>
   </section>
-
 </div>
+
 
   <footer>
     <!--footer boilerplate-->
